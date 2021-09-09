@@ -4,12 +4,7 @@
 int main(int argc, char* argv[]) {
 	Game game = Game();
 
-	game.loadMedia();
-	SDL_BlitSurface(game.blitSurface, NULL, game.screenSurface, NULL);
-
-	SDL_UpdateWindowSurface(game.window);
-
-	SDL_Delay(2000);
+	game.gameLoop();
 
 	return 0;
 }

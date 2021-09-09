@@ -8,18 +8,21 @@
 
 class Game {
 public:
+	bool running;
+
+public:
 	Game();
 	~Game();
 
-public:
+	bool gameLoop();
+
+private:
 	SDL_Window* window;
 	SDL_Surface* screenSurface;
 	SDL_Surface* blitSurface;
 
-	bool loadMedia();
-
 private:
-
+	bool loadMedia();
 };
 
 
