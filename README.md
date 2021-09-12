@@ -1,2 +1,2 @@
-# pacman
-Basic C++ SDL2 pacman game
+# Asteroids
+Basic C++ SDL2 asteroids clone

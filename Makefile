@@ -1,5 +1,5 @@
 CC=g++
-TARGET=main
+TARGET=asteroids
 
 SRC_DIR=./src
 INC_DIR=./include
